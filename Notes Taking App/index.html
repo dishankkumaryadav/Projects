@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Taking App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="note.js"></script>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="icon">
+            <img src="icon.png" alt="Note image icon" height="80px"> Notes
+        </div>
+    </div>
+    <div class="form-container">
+        <h3>Add a New Note:</h3>
+        <form>
+            <label for="title">Title
+            <input type="text" id="title" placeholder="Enter a note title.">
+        </label>
+            <label for="note">Note
+                <textarea type="text" id="note" cols="30" rows="10" placeholder="Enter note text."></textarea>
+          </label>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+    <div class="note-container">
+    </div>
+</body>
+
+</html>
